@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="decoder_string">Text</string>
+    <string name="decoder_hex">Binärdaten (Hex)</string>
+    <string name="decoder_base64">Binärdaten (Base64)</string>
+    <string name="decoder_uic">UIC 918.* (Bahn Ticket)</string>
+    <string name="decoder_vdv">VDV-KA (ÖPNV-Ticket)</string>
+    <string name="desc_about">Über die App</string>
+    <string name="desc_code_image">Erzeugter Barcode</string>
+    <string name="desc_contribution_caption">Entwickler</string>
+    <string name="desc_copy">Inhalt kopieren</string>
+    <string name="desc_decode">Dekodieren</string>
+    <string name="desc_decoded">Dekodierter Inhalt</string>
+    <string name="desc_decoder">Dekodierer</string>
+    <string name="desc_format">Barcode-Format</string>
+    <string name="desc_recticle">Zielhilfe</string>
+    <string name="desc_gallery">Gescannte Barcodes</string>
+    <string name="desc_scanner">Scanner</string>
+    <string name="desc_settings">Einstellungen</string>
+    <string name="desc_view">Anzeigen</string>
+    <string name="msg_change_name">Bitte geben Sie den neuen Namen ein:</string>
+    <string name="msg_copy">Inhalt in der Zwischenablage gespeichert!</string>
+    <string name="msg_error_encode">Fehler beim Errzeugen des Barcodes. Dieses Format kann nicht angezeigt werden.</string>
+    <string name="option_confirm">Bestätigen</string>
+    <string name="option_decline">Abbrechen</string>
+    <string name="placeholder_id">Name</string>
+    <string name="placeholder_timestamp">Zeitstempel</string>
+</resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Barcode Storage</string>
+    <string name="app_name" translatable="false">Barcode Storage</string>
 
     <string name="decoder_string">Text</string>
     <string name="decoder_hex">Raw Data (Hex)</string>
@@ -23,7 +23,7 @@
 
     <string name="msg_change_name">Enter the new name:</string>
     <string name="msg_copy">Saved decoded content to clipboard!</string>
-    <string name="msg_error_encode">Error when encoding the barcode. Can not display this format</string>
+    <string name="msg_error_encode">Error when encoding the barcode. Can not display this format.</string>
 
     <string name="option_confirm">Confirm</string>
     <string name="option_decline">Decline</string>
@@ -32,7 +32,7 @@
     <string name="placeholder_timestamp">Timestamp</string>
 
     <!--TODO: Add yourself if you add/change/fix something :)-->
-    <string name="list_contributors">
+    <string name="list_contributors" translatable="false">
         Kilian Krampf\n
     </string>
 

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -33,12 +34,26 @@
                 android:lines="4"
                 android:textAppearance="?attr/textAppearanceHeadline4"
                 android:textSize="15sp" />
+
             <TextView
                 android:id="@+id/card_gallery_timestamp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/placeholder_timestamp"
                 android:textAppearance="?attr/textAppearanceBodyLarge" />
+
+            <Button
+                style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+
+                android:id="@+id/btn_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:insetLeft="5dp"
+                android:insetRight="5dp"
+                app:icon="@drawable/symbol_delete"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                android:padding="0dp" />
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>

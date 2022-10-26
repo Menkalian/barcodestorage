@@ -47,6 +47,10 @@ class GalleryActivity : MenuActivity(R.id.mnu_gallery) {
 
     override fun onResume() {
         super.onResume()
+        startViewUpdate()
+    }
+
+    private fun startViewUpdate() {
         workScope.launch {
             val barcodes = database.barcodeAccess().getAllStoredBarcodes()
             val adapter = CardAdapter(barcodes)
@@ -102,6 +106,14 @@ class GalleryActivity : MenuActivity(R.id.mnu_gallery) {
                 val intent = Intent(context, ViewBarcodeActivity::class.java)
                 intent.putExtra(Extras.Barcode.ID, barcode.id)
                 context.startActivity(intent)
+            }
+
+            viewBinding.btnDelete.setOnClickListener {
+                workScope.launch {
+                    database.barcodeAccess()
+                        .delete(barcode)
+                    startViewUpdate()
+                }
             }
 
             workScope.launch {
