@@ -3,6 +3,10 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
+        maven {
+            name = "Menkalian"
+            url = uri("https://artifactory.menkalian.de/artifactory/menkalian")
+        }
     }
 }
 
@@ -15,6 +19,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        mavenLocal()
+        maven {
+            name = "Menkalian"
+            url = uri("https://artifactory.menkalian.de/artifactory/menkalian")
+        }
     }
 }
 

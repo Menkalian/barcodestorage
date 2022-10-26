@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnu_scanner"
+        android:enabled="true"
+        android:icon="@drawable/symbol_scanner"
+        android:title="@string/desc_scanner" />
+    <item
+        android:id="@+id/mnu_gallery"
+        android:enabled="true"
+        android:icon="@drawable/symbol_gallery"
+        android:title="@string/desc_gallery"/>
+<!--    <item-->
+<!--        android:id="@+id/mnu_settings"-->
+<!--        android:enabled="false"-->
+<!--        android:icon="@drawable/symbol_settings"-->
+<!--        android:title="@string/desc_settings"/>-->
+    <item
+        android:id="@+id/mnu_about"
+        android:enabled="true"
+        android:icon="@drawable/symbol_about"
+        android:title="@string/desc_about"/>
+</menu>

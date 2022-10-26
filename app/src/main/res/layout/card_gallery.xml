@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_gallery"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?attr/materialCardViewFilledStyle"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|top"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/card_gallery_code_img"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/symbol_image_loading"
+                android:contentDescription="@string/desc_code_image" />
+
+            <TextView
+                android:id="@+id/card_gallery_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_id"
+                android:lines="4"
+                android:textAppearance="?attr/textAppearanceHeadline4"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/card_gallery_timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_timestamp"
+                android:textAppearance="?attr/textAppearanceBodyLarge" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>
